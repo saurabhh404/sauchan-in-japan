@@ -1,0 +1,106 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Overpass Mono', monospace;
+font-family: 'Sawarabi Mincho', sans-serif; */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  padding: 1rem 1rem 4.5rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+.headings {
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#title, #hello, #myskills, #myblog {
+  padding: 2rem 50px;
+}
+
+#title, #title .jumbotron {
+  background-color: #defcf9;
+}
+
+.container {
+  margin: auto 0;
+}
+
+#hello {
+  background-color: #cadefc;
+}
+
+.programmer {
+  font-family: 'Overpass Mono', monospace;
+}
+
+.jp-text {
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.my-pic {
+  margin: 10%;
+  border-radius: 100%;
+  width: 10rem;
+}
+
+.align-right {
+  text-align: right;
+}
+
+#hello .jp-text, #myskills .jp-text, #myblog .jp-text {
+  font-size: 1.8rem;
+}
+
+#myskills {
+  background-color: #c3bef0;
+}
+
+.row-icon {
+  color: white;
+  padding: 5%;
+}
+
+.row-icon-head {
+  font-size: 1.2rem;
+}
+
+.myblog {
+  background-image: url("japan.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.btn{
+  margin: 10px;
+}
+
+a:hover{
+  text-decoration: none;
+}
+footer {
+  text-align: center;
+  margin: 0;
+  background-color: #cca8e9;
+  padding: 20px 0 5px 0;
+}
+
+footer a{
+  color: black;
+}
+footer a:hover {
+  color: white;
+}
+
+.footer-link {
+  margin: 30px;
+}
+
+.copyright {
+  padding: 20px 0;
+  
+}
